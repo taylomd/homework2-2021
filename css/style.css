@@ -1,0 +1,83 @@
+/*Set default text to Times New Roman & sans-serif
+fallback option, make the background black & foreground white.*/
+body{
+    font-family: 'Lucida Console', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/*Set h1 font larger with padding & center aligned.*/
+h1{
+    font-size: 64px;
+    text-align: center;
+    padding: 10px;
+}
+
+/*Set h2 font smaller with text shadow.*/
+h2 {
+    font-size: 32px;
+    text-shadow: 4px 4px 2px #808080;
+}
+
+/*Set p font smaller with top padding.*/
+p{
+    font-size: 24px;
+    padding-top: 15px;
+}
+
+/*Set images to center align, on its own line &
+proportionate width.*/
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+/*Set div elements to minimum height and padding.*/
+div {
+    min-height: 150px;
+    padding: 25px;
+}
+
+/*Style the footer's paragraph.*/
+footer {
+    text-align: center;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+/*Style the red div element.*/
+#red {
+    background-color: #ff0000;
+    text-align: right;
+}
+
+/*Style the blue div element.*/
+#blue {
+    background-color: #0000ff;
+    text-align: left;
+}
+
+/*Style the yellow div element.*/
+#yellow {
+    background-color: #ffff00;
+    text-align: right;
+}
+
+/*Style the yellow div element's paragraph color.*/
+#yellow p {
+    color: #000000;
+}
+
+/*Style the yellow div element's h2 color and shadow.*/
+#yellow h2 {
+    color: #000000;
+    text-shadow: 4px 4px 2px #c7e2c7;
+}
+
+/*Style the green div element.*/
+#green {
+    background-color: #008000;
+    text-align: left;
+}
