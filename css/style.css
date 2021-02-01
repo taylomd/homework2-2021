@@ -1,7 +1,7 @@
 /*Set default text to Times New Roman & sans-serif
 fallback option, make the background black & foreground white.*/
 body{
-    font-family: 'Lucida Console', sans-serif;
+    font-family: 'Times New Roman', sans-serif;
     background-color: #000000;
     color: #ffffff;
 }
@@ -41,8 +41,9 @@ div {
 }
 
 /*Style the footer's paragraph.*/
-footer {
+footer p {
     text-align: center;
+    padding-top: 0px;
     padding-right: 10px;
     padding-bottom: 10px;
 }
